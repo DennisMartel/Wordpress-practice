@@ -1,0 +1,946 @@
+# Translation of Themes - University Hub in Spanish (Colombia)
+# This file is distributed under the same license as the Themes - University Hub package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-23 05:30:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_CO\n"
+"Project-Id-Version: Themes - University Hub\n"
+
+#. Description of the theme
+msgid "University Hub, an Education theme by WEN Themes, is a responsive WordPress theme for university, school, college or other educational institutions. Along with educational institutions, University Hub is flexible and loaded with several features to also cater to the needs of design agencies, corporate websites and small businesses. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=university-hub"
+msgstr "University Hub, un tema de educación de WEN Themes, es un tema para WordPress de adaptablara para universidades, escuelas, colegios u otras instituciones educativas. Además de instituciones educativas, University Hub es flexible y tiene varias características para satisfacer las necesidades de las agencias de diseño, las web corporativas y de pequeñas empresas. Foro de soporte oficial: https://themepalace.com/support-forum/ Demostración completa: https://wenthemes.com/theme-demos/?demo=university-hub"
+
+#. Theme Name of the theme
+msgid "University Hub"
+msgstr "University Hub"
+
+#: functions.php:230
+msgid "collapse child menu"
+msgstr "contraer menú hijo"
+
+#: functions.php:229
+msgid "expand child menu"
+msgstr "ampliar menú hijo"
+
+#: inc/hook/custom.php:85
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer.php:61
+msgid "Buy Pro"
+msgstr "Compra la versión Pro"
+
+#: inc/customizer.php:60
+msgid "University Hub Pro"
+msgstr "University Hub Pro"
+
+#: template-parts/home/news-and-events.php:50
+msgctxt "date format"
+msgid "F d, Y"
+msgstr "d \\d\\e F \\d\\e Y"
+
+#: template-parts/home/latest-news.php:58
+#: template-parts/home/news-and-events.php:53
+msgid "0 comments"
+msgstr "0 comentarios"
+
+#: template-parts/home/latest-news.php:54
+msgctxt "date format"
+msgid "j M Y"
+msgstr "j/M/Y"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:37
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:31 template-parts/content-single.php:34
+#: template-parts/content.php:43
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: single.php:26
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: inc/hook/slider.php:187 single.php:25
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:23
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: inc/hook/slider.php:188 single.php:22
+msgid "Next"
+msgstr "Siguiente"
+
+#: searchform.php:5
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: searchform.php:4
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#: lib/widget-base/class-widget-base.php:292
+msgctxt "remove button"
+msgid "X"
+msgstr "×"
+
+#: lib/widget-base/class-widget-base.php:281
+msgid "Choose Image"
+msgstr "Elige una imagen"
+
+#: lib/widget-base/class-widget-base.php:281
+msgid "Select Image"
+msgstr "Seleccionar la imagen"
+
+#: lib/widget-base/class-widget-base.php:281
+msgid "Upload"
+msgstr "Subir"
+
+#: lib/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: lib/breadcrumbs/breadcrumbs.php:760 lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: lib/breadcrumbs/breadcrumbs.php:759 lib/breadcrumbs/breadcrumbs.php:815
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: lib/breadcrumbs/breadcrumbs.php:758 lib/breadcrumbs/breadcrumbs.php:787
+#: lib/breadcrumbs/breadcrumbs.php:814 lib/breadcrumbs/breadcrumbs.php:841
+#: lib/breadcrumbs/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: lib/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: lib/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: lib/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: lib/breadcrumbs/breadcrumbs.php:256
+msgid "Week %s"
+msgstr "Semana %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: lib/breadcrumbs/breadcrumbs.php:254
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#. Translators: %s is the page number.
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Resultados de la búsqueda de «%s»"
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr "Archivo"
+
+#: lib/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: lib/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#: lib/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr "Ver:"
+
+#: inc/widgets.php:330
+msgid "UH: Recent Posts"
+msgstr "UH: Entradas recientes"
+
+#: inc/widgets.php:324
+msgid "Disable Date"
+msgstr "Desactivar la fecha"
+
+#: inc/widgets.php:316
+msgid "px"
+msgstr "px"
+
+#: inc/widgets.php:314
+msgid "Image Width:"
+msgstr "Ancho de la imagen:"
+
+#: inc/widgets.php:300
+msgid "Number of Posts:"
+msgstr "Número de entradas:"
+
+#: inc/widgets.php:297
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#: inc/widgets.php:295
+msgid "Select Category:"
+msgstr "Selecciona una categoría:"
+
+#: inc/widgets.php:285
+msgid "Displays recent posts."
+msgstr "Muestra las entradas recientes."
+
+#: inc/widgets.php:188
+msgid "UH: Featured Page"
+msgstr "UH: Página destacada"
+
+#: inc/widgets.php:181
+msgid "Image Alignment:"
+msgstr "Alineación de la imagen:"
+
+#: inc/widgets.php:176 inc/widgets.php:308
+msgid "Featured Image:"
+msgstr "Imagen destacada:"
+
+#: inc/widgets.php:168
+msgid "Applies when Excerpt is selected in Content option."
+msgstr "Se aplica cuando se selecciona «Extracto» en la opción «Contenido»."
+
+#: inc/widgets.php:167
+msgid "Excerpt Length:"
+msgstr "Longitud del extracto:"
+
+#: inc/widgets.php:163
+msgid "Full"
+msgstr "Completo"
+
+#: inc/widgets.php:162
+msgid "Excerpt"
+msgstr "Extracto"
+
+#: inc/widgets.php:158
+msgid "Show Content:"
+msgstr "Mostrar contenido:"
+
+#: inc/widgets.php:153
+msgid "Eg: 1234"
+msgstr "Ejemplo: 1234"
+
+#: inc/widgets.php:152
+msgid "Post ID:"
+msgstr "ID de entrada:"
+
+#: inc/widgets.php:148
+msgctxt "message"
+msgid "OR"
+msgstr "o"
+
+#: inc/widgets.php:143
+msgid "Select Page:"
+msgstr "Seleccionar página:"
+
+#: inc/widgets.php:138
+msgid "Use Page/Post Title as Widget Title"
+msgstr "Usar el título de la página o entrada como título del widget"
+
+#: inc/widgets.php:128
+msgid "Displays single featured Page or Post."
+msgstr "Muestra una página o entrada individual destacada."
+
+#: inc/widgets.php:72
+msgid "UH: Social"
+msgstr "UH: Social"
+
+#: inc/widgets.php:66
+msgid "Social menu is not set. Please create menu and assign it to Social Menu."
+msgstr "El menú de redes sociales no está establecido. Por favor, crea un menú y asígnalo al «Menú social»."
+
+#: inc/widgets.php:58 inc/widgets.php:133 inc/widgets.php:290
+msgid "Title:"
+msgstr "Título"
+
+#: inc/widgets.php:53
+msgid "Displays social icons."
+msgstr "Muestra iconos sociales."
+
+#: inc/template-tags.php:95 template-parts/home/news-and-events.php:96
+msgctxt "date format"
+msgid "d"
+msgstr "d"
+
+#: inc/template-tags.php:94 template-parts/home/news-and-events.php:95
+msgctxt "date format"
+msgid "M"
+msgstr "M"
+
+#: inc/template-tags.php:82 template-parts/content-page.php:39
+msgid "Edit"
+msgstr "Editar"
+
+#. Translators: used between list items, there is a space after the comma.
+#: inc/template-tags.php:67 inc/template-tags.php:75
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:57 template-parts/home/latest-news.php:58
+#: template-parts/home/news-and-events.php:53
+msgid "% Comments"
+msgstr "% de comentarios"
+
+#: inc/template-tags.php:57 template-parts/home/latest-news.php:58
+#: template-parts/home/news-and-events.php:53
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: inc/template-tags.php:57
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/support/footer-widgets.php:109
+msgid "Footer Widget %d"
+msgstr "Widget %d del pie de página"
+
+#: inc/metabox.php:80
+msgid "Image Settings"
+msgstr "Ajustes de imagen"
+
+#: inc/metabox.php:64
+msgid "Single Layout"
+msgstr "Diseño individual"
+
+#: inc/metabox.php:62
+msgid "Layout Settings"
+msgstr "Ajustes de diseño"
+
+#: inc/metabox.php:59
+msgid "Image"
+msgstr "Imagen"
+
+#: inc/metabox.php:22
+msgid "Theme Settings"
+msgstr "Ajustes del tema"
+
+#: inc/hook/custom.php:214
+msgid "University Hub by %s"
+msgstr "University Hub por %s"
+
+#: inc/hook/custom.php:17
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: inc/hook/basic.php:170
+msgid "Slider Image"
+msgstr "Imagen del carrusel"
+
+#: inc/hook/basic.php:169
+msgid "Recommended Image Sizes"
+msgstr "Tamaños de imagen recomendados"
+
+#: inc/helper/options.php:243
+msgid "Featured Pages"
+msgstr "Páginas destacadas"
+
+#: inc/helper/options.php:218
+msgid "Static Front Page Only"
+msgstr "Página de inicio estática solamente"
+
+#: inc/helper/options.php:192
+msgctxt "transition effect"
+msgid "scrollHorz"
+msgstr "scrollHorz"
+
+#: inc/helper/options.php:191
+msgctxt "transition effect"
+msgid "none"
+msgstr "ninguno"
+
+#: inc/helper/options.php:190
+msgctxt "transition effect"
+msgid "fadeout"
+msgstr "fundido"
+
+#: inc/helper/options.php:189
+msgctxt "transition effect"
+msgid "fade"
+msgstr "fundido"
+
+#: inc/helper/options.php:169
+msgctxt "alignment"
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/helper/options.php:168
+msgctxt "alignment"
+msgid "Center"
+msgstr "Centro"
+
+#: inc/helper/options.php:167
+msgctxt "alignment"
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/helper/options.php:166
+msgctxt "alignment"
+msgid "None"
+msgstr "Ninguno"
+
+#: inc/helper/options.php:122
+msgid "Full (original)"
+msgstr "Completa (original)"
+
+#: functions.php:93 inc/helper/options.php:121
+msgid "Large"
+msgstr "Grande"
+
+#: inc/helper/options.php:120
+msgid "Medium"
+msgstr "Mediano"
+
+#: inc/helper/options.php:119
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: inc/helper/options.php:117
+msgid "No Image"
+msgstr "Sin imagen"
+
+#: inc/helper/options.php:88
+msgid "Post Excerpt"
+msgstr "Extracto de la entrada"
+
+#: inc/helper/options.php:87
+msgid "Full Post"
+msgstr "Entrada completa"
+
+#: inc/helper/options.php:67
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: inc/helper/options.php:66
+msgid "Simple"
+msgstr "Sencillo"
+
+#: inc/helper/options.php:65 inc/helper/options.php:219
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: inc/helper/options.php:45
+msgid "Numeric"
+msgstr "Numérico"
+
+#: inc/helper/options.php:44
+msgid "Default (Older / Newer Post)"
+msgstr "Por defecto (entradas anteriores/entradas recientes)"
+
+#: inc/helper/options.php:23
+msgid "No Sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/helper/options.php:22
+msgid "Three Columns"
+msgstr "Tres columnas"
+
+#: inc/helper/options.php:21
+msgid "Content - Primary Sidebar"
+msgstr "Contenido - Barra lateral principal"
+
+#: inc/helper/options.php:20
+msgid "Primary Sidebar - Content"
+msgstr "Barra lateral principal - Contenido"
+
+#: inc/helper/common.php:257
+msgid "Default"
+msgstr "Por defecto"
+
+#: inc/helper/common.php:137 lib/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr "Inicio"
+
+#. translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: inc/helper/common.php:86
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/customizer.php:52
+msgid "Note: Background Color is applicable only if no image is set as Background Image."
+msgstr "Nota: el color de fondo solo se aplica si no hay ninguna imagen establecida como imagen de fondo."
+
+#: inc/customizer/slider.php:249
+msgid "Enable Autoplay"
+msgstr "Activar la reproducción automática"
+
+#: inc/customizer/slider.php:233
+msgid "Enable Pager"
+msgstr "Activar la paginación"
+
+#: inc/customizer/slider.php:217
+msgid "Enable Arrow"
+msgstr "Activar las flechas"
+
+#: inc/customizer/slider.php:201
+msgid "Enable Caption"
+msgstr "Activar la leyenda"
+
+#: inc/customizer/slider.php:183
+msgid "Transition Duration"
+msgstr "Duración de la transición"
+
+#: inc/customizer/slider.php:166 inc/customizer/slider.php:184
+msgid "in seconds"
+msgstr "en segundos"
+
+#: inc/customizer/slider.php:165
+msgid "Transition Delay"
+msgstr "Retardo de la transición"
+
+#: inc/customizer/slider.php:148
+msgid "Transition Effect"
+msgstr "Efecto de transición"
+
+#: inc/customizer/slider.php:131
+msgid "Slider Options"
+msgstr "Opciones del carrusel"
+
+#: inc/customizer/slider.php:99
+msgid "Featured Page"
+msgstr "Página destacada"
+
+#: inc/customizer/slider.php:77
+msgid "Enter number between 1 and 20. Save and refresh the page if No of Slides is changed."
+msgstr "Introduce un número entre 1 y 20 y actualiza la página si el número de diapositivas ha cambiado."
+
+#: inc/customizer/slider.php:76
+msgid "No of slides"
+msgstr "Número de diapositivas"
+
+#: inc/customizer/slider.php:56
+msgid "Select Slider Type"
+msgstr "Seleccionar el tipo de carrusel"
+
+#: inc/customizer/slider.php:39
+msgid "Enable Slider On"
+msgstr "Activar el carrusel en"
+
+#: inc/customizer/slider.php:22
+msgid "Slider Type"
+msgstr "Tipo de carrusel"
+
+#: inc/customizer/slider.php:13
+msgid "Featured Slider"
+msgstr "Carrusel destacado"
+
+#: inc/customizer/option.php:519
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr "Avanzado: necesita el plugin %1$sBreadcrumb NavXT%2$s"
+
+#: inc/customizer/option.php:518
+msgid "Breadcrumb Type"
+msgstr "Tipo de migas de pan"
+
+#: inc/customizer/option.php:501
+msgid "Breadcrumb Options"
+msgstr "Opciones de las migas de pan"
+
+#: inc/customizer/option.php:491
+msgid "Enter category ID to exclude in Blog Page. Separate with comma if more than one"
+msgstr "Introduce el ID de las categorías a excluir de la página del blog. Sepáralos con comas si son más de uno"
+
+#: inc/customizer/option.php:490
+msgid "Exclude Categories in Blog"
+msgstr "Excluir categorías en el blog"
+
+#: inc/customizer/option.php:473 inc/customizer/slider.php:119
+msgid "Read More Text"
+msgstr "Texto «Leer más»"
+
+#: inc/customizer/option.php:437
+msgid "Blog Options"
+msgstr "Opciones del blog"
+
+#: inc/customizer/option.php:410
+msgid "Copyright Text"
+msgstr "Texto de copyright"
+
+#: inc/customizer/option.php:392
+msgid "Footer Options"
+msgstr "Opciones del pie de página"
+
+#: inc/customizer/option.php:381
+msgid "Pagination Type"
+msgstr "Tipo de paginación"
+
+#: inc/customizer/option.php:364
+msgid "Pagination Options"
+msgstr "Opciones de paginación"
+
+#: inc/customizer/option.php:354
+msgid "Check this to show page content in Home page."
+msgstr "Mácalo para mostrar el contenido de la página en la página de inicio. "
+
+#: inc/customizer/option.php:353
+msgid "Show Home Content"
+msgstr "Mostrar el contenido de inicio"
+
+#: inc/customizer/option.php:337
+msgid "Home Page Options"
+msgstr "Opciones de página de inicio"
+
+#: inc/customizer/option.php:326 inc/metabox.php:82
+msgid "Image in Single Post/Page"
+msgstr "Imagen en las entradas y páginas individuales"
+
+#: inc/customizer/option.php:308
+msgid "Image Alignment in Archive"
+msgstr "Alineación de imagen en el archivo"
+
+#: inc/customizer/option.php:291
+msgid "Image in Archive"
+msgstr "Imagen del archivo"
+
+#: inc/customizer/option.php:274
+msgid "Archive Layout"
+msgstr "Diseño del archivo"
+
+#: inc/customizer/option.php:257
+msgid "Global Layout"
+msgstr "Disposición global"
+
+#: inc/customizer/option.php:240
+msgid "Layout Options"
+msgstr "Opciones de diseño"
+
+#: inc/customizer/option.php:230
+msgid "Enable Search Form"
+msgstr "Activar el formulario de búsqueda"
+
+#: inc/customizer/option.php:214 inc/customizer/option.php:427
+msgid "Show Social Icons"
+msgstr "Mostrar iconos sociales"
+
+#: inc/customizer/option.php:197
+msgid "Contact Address 2"
+msgstr "Dirección de contacto 2"
+
+#: inc/customizer/option.php:180
+msgid "Contact Address 1"
+msgstr "Dirección de contacto 1"
+
+#: inc/customizer/option.php:163
+msgid "Contact Email"
+msgstr "Correo electrónico de contacto"
+
+#: inc/customizer/option.php:146
+msgid "Contact Number"
+msgstr "Numero de contacto"
+
+#: inc/customizer/option.php:127
+msgid "Number of Posts"
+msgstr "Número de entradas"
+
+#: inc/customizer/option.php:108
+msgid "Ticker Category"
+msgstr "Categoría del teletipo"
+
+#: inc/customizer/option.php:89
+msgid "Ticker Title"
+msgstr "Título del teletipo"
+
+#: inc/customizer/option.php:72
+msgid "Show News Ticker"
+msgstr "Mostrar el teletipo de noticias"
+
+#: inc/customizer/option.php:55
+msgid "Show Tagline"
+msgstr "Mostrar la descripción corta"
+
+#: inc/customizer/option.php:39
+msgid "Show Site Title"
+msgstr "Mostrar el título del sitio"
+
+#: inc/customizer/option.php:22
+msgid "Header Options"
+msgstr "Opciones de la cabecera"
+
+#: inc/customizer/option.php:13
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: inc/customizer/home-sections.php:411 inc/customizer/option.php:455
+msgid "in words"
+msgstr "en palabras"
+
+#: inc/customizer/home-sections.php:410 inc/customizer/option.php:454
+msgid "Excerpt Length"
+msgstr "Longitud del extracto"
+
+#: inc/customizer/home-sections.php:392
+msgid "Image Size"
+msgstr "Tamaño de la imagen"
+
+#: inc/customizer/home-sections.php:374
+msgid "Select Category"
+msgstr "Elegir la categoría"
+
+#: inc/customizer/home-sections.php:355
+msgid "No of Blocks"
+msgstr "Número de bloques"
+
+#: inc/customizer/home-sections.php:337
+msgid "Columns"
+msgstr "Columnas"
+
+#: inc/customizer/home-sections.php:319 inc/customizer/home-sections.php:323
+#: inc/metabox.php:58
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customizer/home-sections.php:275
+msgid "Secondary Button URL"
+msgstr "URL del botón secundario"
+
+#: inc/customizer/home-sections.php:258
+msgid "Secondary Button Text"
+msgstr "Texto del botón secundario"
+
+#: inc/customizer/home-sections.php:241
+msgid "Primary Button URL"
+msgstr "URL del botón principal"
+
+#: inc/customizer/home-sections.php:224
+msgid "Primary Button Text"
+msgstr "Texto del botón principal"
+
+#: inc/customizer/home-sections.php:207
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: inc/customizer/home-sections.php:190 inc/customizer/home-sections.php:302
+msgid "Title"
+msgstr "Título"
+
+#: inc/customizer/home-sections.php:173 inc/helper/options.php:306
+msgid "Call To Action"
+msgstr "Llamada a la acción"
+
+#: inc/customizer/home-sections.php:162
+msgid "Events Category"
+msgstr "Categoría de eventos"
+
+#: inc/customizer/home-sections.php:143
+msgid "No of Events"
+msgstr "Número de eventos"
+
+#: inc/customizer/home-sections.php:126
+msgid "Events Title"
+msgstr "Título del evento"
+
+#: inc/customizer/home-sections.php:108
+msgid "News Category"
+msgstr "Categoría de noticias"
+
+#: inc/customizer/home-sections.php:89
+msgid "No of News"
+msgstr "Número de noticias"
+
+#: inc/customizer/home-sections.php:72
+msgid "News Title"
+msgstr "Título de las noticias"
+
+#: inc/customizer/home-sections.php:55 inc/helper/options.php:302
+msgid "News and Events"
+msgstr "Noticias y eventos"
+
+#: inc/customizer/home-sections.php:43
+msgid "Toggle sections"
+msgstr "Alternar secciones"
+
+#: inc/customizer/home-sections.php:22
+msgid "Manage Sections"
+msgstr "Gestionar secciones"
+
+#: inc/customizer/home-sections.php:13
+msgid "Homepage Sections"
+msgstr "Secciones de la página de inicio"
+
+#: inc/customizer/default.php:101
+msgid "Read More"
+msgstr "Leer más"
+
+#: inc/customizer/default.php:80 inc/customizer/home-sections.php:285
+#: inc/helper/options.php:310
+msgid "Latest News"
+msgstr "Últimas noticias"
+
+#: inc/customizer/default.php:76
+msgid "Online Tour"
+msgstr "Recorrido en línea"
+
+#: inc/customizer/default.php:74 template-parts/home/latest-news.php:46
+msgid "Learn More"
+msgstr "Aprender más"
+
+#: inc/customizer/default.php:73
+msgid "Every undergraduate student is eligible to receive a fellowship of up to $10,000 for a summer internship or faculty-mentored research project. Find your opportunity, make your case for how it fits your academic plans, and we will help fund it."
+msgstr "Cada estudiante universitario puede recibir una beca de hasta 10.000 dólares para una pasantía de verano o un proyecto de investigación dirigido por un profesor. Encuentra tu oportunidad, presenta tu caso para que se ajuste a tus planes académicos y te ayudaremos a financiarla."
+
+#: inc/customizer/default.php:72
+msgid "Join Our University"
+msgstr "Únete a nuestra universidad"
+
+#: inc/customizer/default.php:67
+msgid "Events"
+msgstr "Eventos"
+
+#: inc/customizer/default.php:64
+msgid "News"
+msgstr "Noticias"
+
+#: inc/customizer/default.php:54
+msgid "Read more"
+msgstr "Leer más"
+
+#: inc/customizer/default.php:49
+msgid "Copyright &copy; All rights reserved."
+msgstr "Copyright &copy; Todos los derechos reservados."
+
+#: inc/customizer/default.php:25
+msgid "News:"
+msgstr "Noticias:"
+
+#: inc/customizer/control.php:173 inc/widgets.php:145
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccionar &mdash;"
+
+#: functions.php:196
+msgid "Add widgets here to appear in your Secondary Sidebar."
+msgstr "Añade widgets aquí para que aparezcan en tu barra lateral secundaria."
+
+#: functions.php:194
+msgid "Secondary Sidebar"
+msgstr "Barra lateral secundaria"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your Primary Sidebar."
+msgstr "Añade widgets aquí para que aparezcan en tu barra lateral principal."
+
+#: functions.php:185
+msgid "Primary Sidebar"
+msgstr "Barra lateral principal"
+
+#: functions.php:40
+msgid "404 Menu"
+msgstr "Menú 404"
+
+#: functions.php:39
+msgid "Social Menu"
+msgstr "Menú social"
+
+#: functions.php:38
+msgid "Footer Menu"
+msgstr "Menú del pie de página"
+
+#: functions.php:37 inc/hook/custom.php:152
+msgid "Top Menu"
+msgstr "Menú superior"
+
+#: functions.php:36
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
+
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s respuesta a «%2$s»"
+msgstr[1] "%1$s respuestas a «%2$s»"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una respuesta a «%s»"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#. Author URI of the theme
+msgid "https://wenthemes.com/"
+msgstr "https://wenthemes.com/"
+
+#. Theme URI of the theme
+msgid "https://wenthemes.com/item/wordpress-themes/university-hub/"
+msgstr "https://wenthemes.com/item/wordpress-themes/university-hub/"
+
+#. Author of the theme
+#: inc/hook/custom.php:214
+msgid "WEN Themes"
+msgstr "WEN Themes"
